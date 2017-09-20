@@ -1,0 +1,6 @@
+h1,h2 {
+    font-family: sans-serif,serif; /* font stack */
+    font-size: 1em, 12pt, 12px;
+    font-weight: bold,lighter;
+    font-style: italic;
+}

@@ -1,0 +1,29 @@
+
+p { /* p */
+    color:blue;
+    font-family: arial;
+    font-size:38px;
+}
+
+.title{ /* class */
+    color:red;
+    font-family:"times new roman";
+    font-size:2em;
+}
+
+.listItem{ /* class */
+    color:black;
+    font-family:courier;
+    font-size: 24px;
+}
+
+#favorite{
+    font-style: italic;
+    font-size:36px;
+}
+
+#lived{
+    font-weight: bold;
+    font-size:48px;
+    color:rgb(127,0,255);
+}

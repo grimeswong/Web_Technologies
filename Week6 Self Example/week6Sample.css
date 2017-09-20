@@ -1,0 +1,13 @@
+.container {
+    display:flex;
+    background-color:cornflowerblue;
+}
+
+.item {
+    background-color:lightgrey;
+    width:100px;
+    height:100px;
+    margin:10px;
+}
+
+

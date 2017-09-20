@@ -1,0 +1,105 @@
+body, div{    /*Make default to 0 */
+    margin:0;
+    padding:0;
+}
+
+
+
+#header {
+    height:150px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-width: thin;
+    color:white;
+    background-color: #111;
+    padding-top: 10px;
+    width:100%;
+ }
+
+#mainbody {
+    display:flex;    /* display:flex must only place in the container */
+    flex-direction:column;    
+/*  min-height: 700px;
+    min-width: 600px;
+    max-width: 1000px; */ /*remove for mobile version */
+    margin-left: auto;
+    margin-right: auto;
+/*  padding-bottom: 75px;    /*we don't accidently display content underneath it, removed for mobile */
+   
+
+}
+
+#navigation {
+    
+    width:100%;    /* added for mobile */
+    background-color:white;    /*navigation area */
+    
+}    
+
+ul{
+    list-style-type: none;    /* remove the dot of list */
+    margin: 0;     /* remove the browser default settings if setting is 0 */
+    padding: 0;    /* remove the browser default settings if setting is 0*/ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:lightpink;
+    
+    
+}
+
+li a {    /* the a link inside the list items */
+    display:block;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    background-color: #d22709;
+    /*margin: 10px;    /*deleted this margin for the right paddin will displays over the the right edge for mobile */     
+    margin-top:10px;
+    margin-bottom:10px;
+    /*padding:15px;    /*deleted this padding for the right paddin will displays over the the right edge for mobile */
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 10px;
+    width:100%;    /* added for mobile */
+}
+
+#content {
+    flex-grow:0;
+    text-align: center;
+    background-color: lightblue;
+    padding:5px; /*changed from 20px to 5px for mobile */
+}
+
+#footer {
+    display: none; /* added display to none that disappear the footer for mobile */
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height:75px;
+    text-align: center;
+    border-top-style: solid;
+    border-width:thin;
+    color:black;
+    background-color: grey;
+}
+
+#navigation a:link {
+    color:white;
+    text-decoration: none;    /* remove the underline */
+ 
+}
+
+#navigation a:visited {
+    color:white;
+}
+
+#navigation a:hover{
+    background-color:gold;
+    text-decoration: underline;
+}
+
+#navigation a:active {
+    color:darkgreen;
+    text-decoration: underline;
+}

@@ -1,0 +1,82 @@
+body, div{    /*Make default to 0 */
+    margin:0;
+    padding:0;
+}
+
+
+
+#header {
+    height:150px;
+    width:100%;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-width: thin;
+    color:white;
+    background-color: #111;
+}
+
+#mainbody {
+    display:flex;    /* display:flex must only place in the container */
+    flex-direction:column;
+    min-height: 700px;
+    min-width: 600px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 75px;    /*we don't accidently display content underneath it*/
+   
+
+}
+
+#navigation {
+    width:300px;
+    background-color:white;    /*navigation area */
+}    
+
+ul{
+    list-style-type: none;    /* remove the dot of list */
+    margin: 0;     /* remove the browser default settings if setting is 0 */
+    padding: 0;    /* remove the browser default settings if setting is 0*/ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:lightpink;
+    
+    
+}
+
+li a {    /* the a link inside the list items */
+    
+    margin: 10px;
+    padding:15px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    background-color: #d22709;
+    border-radius: 10px;
+}
+
+
+
+
+
+#navigation a:link {
+    color:white;
+    text-decoration: none;    /* remove the underline */
+ 
+}
+
+#navigation a:visited {
+    color:white;
+}
+
+#navigation a:hover{
+    background-color:gold;
+    text-decoration: underline;
+}
+
+#navigation a:active {
+    color:darkgreen;
+    text-decoration: underline;
+}
+
